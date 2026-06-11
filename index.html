@@ -83,7 +83,7 @@ nav {
 
 .nav-links a {
   font-family: 'DM Mono', monospace;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 400;
   color: var(--mid);
   text-decoration: none;
@@ -151,7 +151,7 @@ nav {
 .hero-left > * { position: relative; z-index: 1; }
 
 .hero-eyebrow {
-  font-size: 11px;
+  font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   color: var(--ink);
@@ -210,7 +210,7 @@ nav {
 /* ─── BOUTONS ─── */
 .btn {
   font-family: 'DM Mono', monospace;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -266,9 +266,9 @@ nav {
 
 .sh-num {
   font-family: 'DM Mono', monospace;
-  font-size: 11px;
+  font-size: 13px;
   color: var(--ink);
-  opacity: 0.35;
+  opacity: 0.7;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   padding-bottom: 4px;
@@ -423,9 +423,9 @@ nav {
 
 .comp-num {
   font-family: 'DM Mono', monospace;
-  font-size: 11px;
+  font-size: 13px;
   color: var(--ink);
-  opacity: 0.3;
+  opacity: 0.6;
   letter-spacing: 0.1em;
   margin-bottom: 8px;
 }
@@ -439,14 +439,14 @@ nav {
   font-size: 22px;
   font-weight: 700;
   color: var(--ink);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   line-height: 1.2;
 }
 
 .comp-desc {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--ink);
-  opacity: 0.6;
+  opacity: 0.75;
   line-height: 1.7;
   margin-bottom: 14px;
 }
@@ -617,7 +617,7 @@ nav {
 }
 
 .t-date {
-  font-size: 11px;
+  font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--ink);
@@ -635,7 +635,7 @@ nav {
 }
 
 .t-place {
-  font-size: 11px;
+  font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--ink);
@@ -771,7 +771,7 @@ footer {
 }
 
 footer p {
-  font-size: 11px;
+  font-size: 13px;
   opacity: 0.4;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -815,7 +815,7 @@ footer p {
     <ul class="nav-links">
       <li><a href="#about">À propos</a></li>
       <li><a href="#competences">Compétences</a></li>
-      <li><a href="#projets">Projets</a></li>
+      <li><a href="#projets-but">Projets</a></li>
       <li><a href="#parcours">Parcours</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -855,7 +855,7 @@ footer p {
 <section class="page-section" id="about">
   <div class="section-inner">
     <div class="sh">
-      <span class="sh-num">— 01 / 05</span>
+      <span class="sh-num">- 01 / 06</span>
       <h2 class="sh-title">À propos</h2>
     </div>
     <div class="about-layout">
@@ -885,7 +885,7 @@ footer p {
 <section class="page-section" id="competences">
   <div class="section-inner">
     <div class="sh">
-      <span class="sh-num">— 02 / 05</span>
+      <span class="sh-num">- 02 / 06</span>
       <h2 class="sh-title">Compétences BUT</h2>
     </div>
     <div class="competences-grid">
@@ -966,52 +966,101 @@ footer p {
   </div>
 </section>
 
-<!-- ═══ PROJETS ═══ -->
-<section class="page-section" id="projets">
+<!-- ═══ PROJETS SAE ═══ -->
+<section class="page-section" id="projets-but">
   <div class="section-inner">
     <div class="sh">
-      <span class="sh-num">— 03 / 05</span>
-      <h2 class="sh-title">Projets</h2>
+      <span class="sh-num">- 03 / 06</span>
+      <h2 class="sh-title">Projets BUT</h2>
+    </div>
+    <div class="competences-grid">
+
+      <div class="comp-card">
+        <p class="comp-num">C1</p>
+        <div class="comp-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="2" y="4" width="28" height="24" rx="2" stroke="#0d0d0d" stroke-width="2"/><line x1="2" y1="11" x2="30" y2="11" stroke="#0d0d0d" stroke-width="2"/><circle cx="7" cy="7.5" r="1.5" fill="#0d0d0d"/><circle cx="12" cy="7.5" r="1.5" fill="#0d0d0d"/><circle cx="17" cy="7.5" r="1.5" fill="#0d0d0d"/><line x1="7" y1="17" x2="18" y2="17" stroke="#0d0d0d" stroke-width="1.5" stroke-linecap="round"/><line x1="7" y1="21" x2="14" y2="21" stroke="#0d0d0d" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <h3 class="comp-title">Sokoban ou développement C</h3>
+        <p class="comp-desc">Le jeu de Sokoban consiste à pousser des caisses sur des cases précises. On doit le faire en C dans le shell.</p>
+        <div class="comp-tags">
+          <span class="ctag">C</span>
+        </div>
+      </div>
+
+      <div class="comp-card">
+        <p class="comp-num">C2</p>
+        <div class="comp-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><ellipse cx="16" cy="16" rx="13" ry="8" stroke="#0d0d0d" stroke-width="2"/><ellipse cx="16" cy="16" rx="13" ry="8" stroke="#0d0d0d" stroke-width="2" transform="rotate(60 16 16)"/><circle cx="16" cy="16" r="3" fill="#0d0d0d"/></svg>
+        </div>
+        <h3 class="comp-title">Solveur de Picross ou algorithmie</h3>
+        <p class="comp-desc">Le picross est un jeu de logique qui consiste à colorier des cases avec 2 couleurs en suivant les indications de suites de chiffres. Le projet est un algorithme en Python qui résout tout seul une grille donnée.</p>
+        <div class="comp-tags">
+          <span class="ctag">Algo</span><span class="ctag">Python</span><span class="ctag">Graphes</span>
+        </div>
+      </div>
+
+      <div class="comp-card">
+        <p class="comp-num">C3</p>
+        <div class="comp-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="4" y="8" width="10" height="10" rx="1" stroke="#0d0d0d" stroke-width="2"/><rect x="18" y="8" width="10" height="10" rx="1" stroke="#0d0d0d" stroke-width="2"/><rect x="11" y="20" width="10" height="8" rx="1" stroke="#0d0d0d" stroke-width="2"/><line x1="9" y1="18" x2="16" y2="21" stroke="#0d0d0d" stroke-width="1.5"/><line x1="23" y1="18" x2="16" y2="21" stroke="#0d0d0d" stroke-width="1.5"/></svg>
+        </div>
+        <h3 class="comp-title">L'équipe de gestion de ressources</h3>
+        <p class="comp-desc">Dans ce projet, nous devions gérer les ressources utilisées par une équipe de développement web afin de faciliter la cohérence des fichiers et la facilité de développement.</p>
+        <div class="comp-tags">
+          <span class="ctag">Linux</span><span class="ctag">Docker</span>
+        </div>
+      </div>
+
+      <div class="comp-card">
+        <p class="comp-num">C4</p>
+        <div class="comp-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="4" y="4" width="24" height="24" rx="2" stroke="#0d0d0d" stroke-width="2"/><line x1="4" y1="12" x2="28" y2="12" stroke="#0d0d0d" stroke-width="1.5"/><line x1="12" y1="4" x2="12" y2="28" stroke="#0d0d0d" stroke-width="1.5"/><line x1="16" y1="17" x2="24" y2="17" stroke="#0d0d0d" stroke-width="1.5" stroke-linecap="round"/><line x1="16" y1="21" x2="22" y2="21" stroke="#0d0d0d" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <h3 class="comp-title">Base de données Parcoursup</h3>
+        <p class="comp-desc">Ce projet consiste en la traduction d'un schéma d'intégrité relationnelle, la création d'un script d'initialisation et d'un script de peuplement. L'objectif était de modéliser et implémenter une base de données pour gérer les informations des candidats à Parcoursup.</p>
+        <div class="comp-tags">
+          <span class="ctag">PostgreSQL</span><span class="ctag">UML</span>
+        </div>
+      </div>
+
+      <div class="comp-card">
+        <p class="comp-num">C5</p>
+        <div class="comp-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="10" r="5" stroke="#0d0d0d" stroke-width="2"/><circle cx="6" cy="24" r="4" stroke="#0d0d0d" stroke-width="2"/><circle cx="26" cy="24" r="4" stroke="#0d0d0d" stroke-width="2"/><line x1="11" y1="14" x2="9" y2="20" stroke="#0d0d0d" stroke-width="1.5"/><line x1="21" y1="14" x2="23" y2="20" stroke="#0d0d0d" stroke-width="1.5"/></svg>
+        </div>
+        <h3 class="comp-title">Logiciel de gestion "La mie du goût"</h3>
+        <p class="comp-desc">Travailler en équipe pour concevoir et développer un logiciel de gestion pour une société de restauration du receuil des besoins jusqu'au dévelpoppement d'un prototype interactif.</p>
+        <div class="comp-tags">
+          <span class="ctag">Trello</span><span class="ctag">Figma</span><span class="ctag">ProjectLibre</span>
+        </div>
+      </div>
+
+      <div class="comp-card">
+        <p class="comp-num">C6</p>
+        <div class="comp-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="4" y="20" width="5" height="8" stroke="#0d0d0d" stroke-width="2"/><rect x="13" y="14" width="5" height="14" stroke="#0d0d0d" stroke-width="2"/><rect x="22" y="8" width="5" height="20" stroke="#0d0d0d" stroke-width="2"/><line x1="4" y1="5" x2="28" y2="5" stroke="#0d0d0d" stroke-width="1.5" stroke-dasharray="2 2"/></svg>
+        </div>
+        <h3 class="comp-title">RSE d'une entreprise et veille numérique</h3>
+        <p class="comp-desc">Etudier une entreprise avec des outils de veille numériques afin d'identifier les opportunités et les risques liés à son environnement.</p>
+        <div class="comp-tags">
+          <span class="ctag">Communication</span><span class="ctag">Veille numérique</span><span class="ctag">Gestion des organisations</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PROJETS PERSO═══ -->
+<section class="page-section" id="projets-persos">
+  <div class="section-inner">
+    <div class="sh">
+      <span class="sh-num">- 04 / 06</span>
+      <h2 class="sh-title">Projets Personnels</h2>
     </div>
 
     <div class="projects-list">
 
       <!-- PROJET 1 -->
-      <div class="proj">
-        <div class="proj-thumb">
-          <img src="resources/sokoban.png" alt="Sokoban" class="frame-img">
-        </div>
-        <div class="proj-meta">
-          <p class="proj-type">Application C · Dev. Appli. et Algo. · Individuel et Duo</p>
-          <h3 class="proj-title">Sokoban + Version Auto.</h3>
-          <p class="proj-desc">Jeu de Sokoban dont le but consiste à pousser des caisses sur des cases précises. La deuxième version calcule automatiquement les déplacements.</p>
-          <div class="proj-stack">
-            <span class="ctag">C</span>
-          </div>
-        </div>
-        <div class="proj-links-col">
-          <a href="#" class="proj-link">GitHub</a>
-        </div>
-      </div>
-
-      <div class="proj">
-        <div class="proj-thumb">
-          <img src="resources/picross.png" alt="Picross" class="frame-img">
-        </div>
-        <div class="proj-meta">
-          <p class="proj-type">Algorithme Python · Algorithmes · Duo</p>
-          <h3 class="proj-title">Solver de Picross</h3>
-          <p class="proj-desc">Le picross est un jeu de logique qui consiste à colorier des cases avec 2 couleurs en suivant les indications de suites de chiffres. Le projet est un algorithme en Python qui résout tout seul une grille donnée.</p>
-          <div class="proj-stack">
-            <span class="ctag">C</span>
-          </div>
-        </div>
-        <div class="proj-links-col">
-          <a href="#" class="proj-link">GitHub</a>
-        </div>
-      </div>
-
-      <!-- PROJET 2 -->
       <div class="proj">
         <div class="proj-thumb">
           <img src="resources/chrom.png" alt="Chrom" class="frame-img">
@@ -1075,7 +1124,7 @@ footer p {
 <section class="page-section" id="parcours">
   <div class="section-inner">
     <div class="sh">
-      <span class="sh-num">— 04 / 05</span>
+      <span class="sh-num">- 05 / 06</span>
       <h2 class="sh-title">Parcours</h2>
     </div>
 
@@ -1109,7 +1158,7 @@ footer p {
 <section class="page-section" id="contact">
   <div class="section-inner">
     <div class="sh">
-      <span class="sh-num">— 05 / 05</span>
+      <span class="sh-num">- 06 / 06</span>
       <h2 class="sh-title">Contact</h2>
     </div>
 
